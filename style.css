@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/204/759/755/artwork-digital-art-abstract-simple-background-wallpaper-preview.jpg');
+    background-size: cover;
+    opacity: 0.6;
+}
+
+#links {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#logo {
+    margin-bottom: 30px;
+}
+
+#logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make the logo circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition properties */
+}
+
+#logo img:hover {
+    transform: scale(1.2); /* Increase the size of the logo on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Change the shadow color or intensity on hover */
+}
+
+h1 {
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+h3:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: opacity 0.3s ease;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+a span {
+    display: inline-block;
+}
+
+a:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#links a[href="https://www.youtube.com/channel/UCt7cxBtOgjmJPO9SjqLCbMg"]:hover {
+    background-color: #ff0000; /* Change the background color for YouTube on hover */
+    color: #ffffff; /* Change the text color for YouTube on hover */
+}
+
+#links a[href="https://www.instagram.com/souy.king/"]:hover {
+    background-color: #e4405f; /* Change the background color for Instagram on hover */
+    color: #ffffff; /* Change the text color for Instagram on hover */
+}
+
+#links a[href="https://www.tiktok.com/@souyfn"]:hover {
+    background-color: #000000; /* Change the background color for TikTok on hover */
+    color: #ffffff; /* Change the text color for TikTok on hover */
+}
+
+#links a[href="https://discord.com/"]:hover {
+    background-color: #7289da; /* Change the background color for Discord on hover */
+    color: #ffffff; /* Change the text color for Discord on hover */
+}
+#links a[href="https://souyking.github.io/netflix.cookies/"]:hover {
+    background-color: #ff0000; /* Change the background color for YouTube on hover */
+    color: #ffffff; /* Change the text color for YouTube on hover */
+}
